@@ -1,0 +1,37 @@
+/* reset.css */
+
+/* Zera as margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Zera a aparência padrão da lista e remove os marcadores */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Define estilos padrão para o corpo do documento */
+  body {
+    line-height: 1.6;
+  }
+  
+  /* Remove a aparência padrão de formatação de texto */
+  a, b, strong, em, i {
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  /* Define a cor padrão do texto */
+  body {
+    color: #333;
+  }
+  
+  /* Corrige o espaçamento entre linhas no IE 11 e versões anteriores */
+  /* Opcional: remova se não estiver suportando versões antigas do IE */
+  /* Consulte: https://stackoverflow.com/questions/31731460/spacing-between-list-items-in-ie-11 */
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
